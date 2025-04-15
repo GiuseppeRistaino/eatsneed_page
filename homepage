@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EatsNeed - La tua dispensa smart</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background-color: #e0f7fa;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 300px;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .feature {
+      background-color: #ffffff;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin: 2rem 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2rem;
+    }
+    .feature img {
+      max-width: 200px;
+      border-radius: 1rem;
+    }
+    .feature:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="EatsNeed_splash.jpg" alt="EatsNeed logo">
+    <h1>Benvenuto su EatsNeed</h1>
+    <p>La tua app per una dispensa intelligente, ricette furbe e una spesa sempre sotto controllo.</p>
+  </header>
+
+  <section>
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/2921/2921222.png" alt="Gestione dispensa">
+      <div>
+        <h2>📦 Tieni traccia della tua dispensa</h2>
+        <p>Inserisci i tuoi prodotti, monitora la quantità e controlla le date di scadenza. EatsNeed ti avvisa in anticipo!</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Lista della spesa">
+      <div>
+        <h2>🛒 Lista della spesa intelligente</h2>
+        <p>Hai finito il latte? Te lo ricorda EatsNeed! Aggiungi i prodotti mancanti in un attimo alla lista della spesa.</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/2921/2921822.png" alt="Ricette">
+      <div>
+        <h2>👩‍🍳 Ricette con quello che hai</h2>
+        <p>Scopri cosa puoi cucinare con i prodotti già presenti in casa. Niente sprechi, solo piatti deliziosi!</p>
+      </div>
+    </div>
+
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/1250/1250615.png" alt="Aggiunta alla lista automatica">
+      <div>
+        <h2>➕ Ti manca un ingrediente? Ci pensa EatsNeed</h2>
+        <p>Quando scegli una ricetta, gli ingredienti mancanti vengono subito aggiunti alla lista della spesa.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 EatsNeed. Tutti i diritti riservati.
+  </footer>
+</body>
+</html>
