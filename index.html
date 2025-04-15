@@ -11,19 +11,25 @@
       background-color: #f5f5f5;
       color: #333;
     }
+
     header {
       background-color: #e0f7fa;
       padding: 2rem;
       text-align: center;
     }
+
     header img {
       max-width: 300px;
+      width: 100%;
+      height: auto;
     }
+
     section {
       padding: 2rem;
       max-width: 1000px;
       margin: auto;
     }
+
     .feature {
       background-color: #ffffff;
       border-radius: 1rem;
@@ -31,22 +37,45 @@
       margin: 2rem 0;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
       display: flex;
-      flex-direction: row;
+      flex-wrap: wrap;
       align-items: center;
       gap: 2rem;
     }
+
     .feature img {
       max-width: 200px;
+      width: 100%;
+      height: auto;
       border-radius: 1rem;
+      flex-shrink: 0;
     }
+
+    .feature > div {
+      flex: 1;
+      min-width: 250px;
+    }
+
     .feature:nth-child(even) {
       flex-direction: row-reverse;
     }
+
     footer {
       text-align: center;
       padding: 2rem;
       font-size: 0.9rem;
       color: #777;
+    }
+
+    @media (max-width: 768px) {
+      .feature {
+        flex-direction: column !important;
+        text-align: center;
+      }
+
+      .feature img {
+        margin-bottom: 1rem;
+        max-width: 150px;
+      }
     }
   </style>
 </head>
